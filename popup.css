@@ -1,0 +1,57 @@
+:root
+{
+    --primary: #0BACAA;
+    --secondary: #67E2ED;
+    --light: #FFFFFF;
+    --dark: #000000;
+    /*
+    --primary: #0BACAA;
+    --secondary: #67E2ED;
+    --light: #FFFFFF;
+    --dark: #0D1E20;
+*/
+}
+body
+{
+    background-color: var(--secondary);
+}
+
+.form input,
+.form button,
+.form textarea
+{
+    display: block;
+    width: 300px;
+    padding: 6px;
+    margin: 5px;
+}
+.input
+{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: var(--light);
+    font-family: courier;
+}
+.btn
+{
+    background-color: var(--primary);
+    color: var(--light);
+    font-family: sans-serif;
+
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover
+{
+    background-color: var(--light);
+    color: var(--primary);
+}
+.btn:active
+{
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+.bg-128-50
+{
+    background: url('128_50.png') no-repeat right bottom;
+    background-color: var(--light);
+}
