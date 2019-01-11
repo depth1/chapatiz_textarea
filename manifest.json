@@ -21,7 +21,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://www.chapatiz.com/bbs/posting.php*"],
+            "matches": ["https://www.chapatiz.com/bbs/*"],
             "js": ["inject.js"]
         }
     ]
