@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Chapatiz Textarea",
     "description": "Cette extension permet de pré-remplir les messages sur les forums de Chapatiz (chapatiz.com/bbs).",
-    "version": "3.2",
+    "version": "3.3",
     "icons": {
     "128": "128.png",
     "64": "64.png",
